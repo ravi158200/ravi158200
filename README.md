@@ -3,18 +3,24 @@
 </div>
 
 ###
-
 <h1 align="center">hey there 👋</h1>
 
-###
 
-<h3 align="left">👩‍💻  About Me</h3>
+<h3 align="center">🚀 Aspiring Full Stack Developer | Web Developer | DSA Learner</h3>
 
-###
+---
 
-<p align="left">I'm RAvi Kumar from Bihar<br><br>- 🔭 I’m working as Upskilling myself<br>- 📚 I'm currently learning WebDevelopment & DSA<br>- ⚡ In my free time I Playing Game, watching reels, coding</p>
+## 👨‍💻 About Me
 
-###
+- 🎯 Passionate about building modern and responsive web applications  
+- 🔭 Currently focused on **Web Development & Data Structures and Algorithms**  
+- 🌱 Continuously learning and improving my coding skills  
+- ⚡ In my free time: Gaming 🎮 | Watching reels 📱 | Coding 💻  
+- 📍 From Bihar, India  
+
+---
+
+##
 
 <h3 align="left">Connect with me :</h3>
 
@@ -39,6 +45,7 @@
 </div>
 
 ###
+
 
 <h3 align="left">🛠 Language and tools :</h3>
 
@@ -74,28 +81,40 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
 </div>
 
-###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ravi158200&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ravi158200&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
+---
 
-###
+## 📊 GitHub Stats
 
-<h3 align="left">🔥   My Stats :</h3>
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=ravi158200&show_icons=true&theme=radical" height="150"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravi158200&layout=compact&theme=radical" height="150"/>
+</p>
 
-###
+---
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=ravi158200&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
+## 🔥 GitHub Streak
 
-###
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=ravi158200&theme=dark" height="200"/>
+</p>
 
-<img src="https://raw.githubusercontent.com/ravi158200/ravi158200/output/snake.svg" alt="Snake animation" />
+---
 
-###
+## 🚀 Current Focus
+
+- 📌 Building **Full Stack Projects**
+- 📌 Improving **DSA problem-solving**
+- 📌 Learning **Advanced Backend Development**
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ravi158200/ravi158200/output/snake.svg" alt="snake animation"/>
+</p>
+---
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ravi158200/ravi158200/output/pacman-contribution-graph-dark.svg">
@@ -103,10 +122,8 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ravi158200/ravi158200/output/pacman-contribution-graph.svg">
 </picture>
 
-###
+## 👀 Profile Views
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=ravi158200.ravi158200&"  />
-</div>
-
-###
+<p align="center">
+<img src="https://visitor-badge.laobi.icu/badge?page_id=ravi158200.ravi158200" />
+</p>
