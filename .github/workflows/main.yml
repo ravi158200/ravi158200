@@ -28,7 +28,6 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       # 2. Generate Pac-Man Animation
-      # We use abozanona/pacman-contribution-graph
       - name: generate pacman svg
         uses: abozanona/pacman-contribution-graph@main
         with:
@@ -38,11 +37,14 @@ jobs:
       - name: organize files
         run: |
           mkdir -p dist
-          # The pacman action usually creates a file named github-contribution-grid-pacman.svg
-          # We rename it to match the user's README links
-          mv github-contribution-grid-pacman.svg dist/pacman-contribution-graph.svg || true
-          # Create a dark version of pacman as well (or just copy the same one if dark not supported)
-          cp dist/pacman-contribution-graph.svg dist/pacman-contribution-graph-dark.svg || true
+          # Move pacman files to dist. The action might name them pacman-contribution-graph.svg
+          # or github-contribution-grid-pacman.svg. Let's handle both.
+          mv pacman-contribution-graph.svg dist/ 2>/dev/null || mv github-contribution-grid-pacman.svg dist/pacman-contribution-graph.svg 2>/dev/null || true
+          
+          # Ensure dark version exists for README picture tags
+          if [ ! -f dist/pacman-contribution-graph-dark.svg ]; then
+            cp dist/pacman-contribution-graph.svg dist/pacman-contribution-graph-dark.svg 2>/dev/null || true
+          fi
 
       # 4. Deploy to output branch
       - name: push to output branch

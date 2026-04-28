@@ -22,14 +22,16 @@ jobs:
         with:
           username: ravi158200
 
-      - name: Move and Rename
+      - name: Organize Files
         run: |
           mkdir -p dist
-          # Assuming the action generates github-contribution-grid-pacman.svg
-          mv github-contribution-grid-pacman.svg dist/pacman-contribution-graph.svg || true
-          # If it generates a dark version, handle it here. 
-          # Note: abozanona version might not generate dark version automatically.
-          # I will create a copy for dark version just in case, or use a theme if supported.
+          # The action generates pacman-contribution-graph.svg by default
+          # and it also generates a dark version if supported, or we can copy it.
+          # Let's see what files were generated
+          ls -R
+          mv pacman-contribution-graph.svg dist/ || true
+          # Create a copy for dark mode if it doesn't exist
+          cp dist/pacman-contribution-graph.svg dist/pacman-contribution-graph-dark.svg || true
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
