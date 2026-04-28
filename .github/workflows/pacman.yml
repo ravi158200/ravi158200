@@ -20,7 +20,7 @@ jobs:
       - name: Generate Pac-Man Contribution Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          username: ravi158200
+          github_user_name: ravi158200
 
       - name: Organize Files
         run: |

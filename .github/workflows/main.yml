@@ -31,7 +31,7 @@ jobs:
       - name: generate pacman svg
         uses: abozanona/pacman-contribution-graph@main
         with:
-          username: ravi158200
+          github_user_name: ravi158200
 
       # 3. Organize files for deployment
       - name: organize files
