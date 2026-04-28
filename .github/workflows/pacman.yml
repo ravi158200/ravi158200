@@ -1,0 +1,41 @@
+name: Update Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Pac-Man Contribution Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          username: ravi158200
+
+      - name: Move and Rename
+        run: |
+          mkdir -p dist
+          # Assuming the action generates github-contribution-grid-pacman.svg
+          mv github-contribution-grid-pacman.svg dist/pacman-contribution-graph.svg || true
+          # If it generates a dark version, handle it here. 
+          # Note: abozanona version might not generate dark version automatically.
+          # I will create a copy for dark version just in case, or use a theme if supported.
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
