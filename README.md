@@ -88,7 +88,7 @@
 ## 🔥 GitHub Streak
 
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=ravi158200&theme=dark" height="200"/>
+<img src="https://streak-stats.demolab.com/?user=ravi158200&theme=dark" height="200"/>
 </p>
 
 ---
