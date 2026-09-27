@@ -93,8 +93,8 @@ Hobbies: Coding 💻 | Gaming 🎮 | Learning New Tech 🚀
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ravi158200&show_icons=true&theme=radical&hide_border=true&count_private=true" height="160" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ravi158200&layout=compact&theme=radical&hide_border=true" height="160" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=ravi158200&show_icons=true&theme=radical&hide_border=true&count_private=true" height="160" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ravi158200&layout=compact&theme=radical&hide_border=true" height="160" alt="Top Languages" />
 </p>
 
 ---
@@ -102,7 +102,7 @@ Hobbies: Coding 💻 | Gaming 🎮 | Learning New Tech 🚀
 ### 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=ravi158200&theme=radical&hide_border=true" height="180" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=ravi158200&theme=radical&hide_border=true" height="180" alt="GitHub Streak" />
 </p>
 
 ---
