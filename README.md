@@ -1,8 +1,8 @@
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Coding Banner" />
   <br />
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&height=50&lines=Hey+there!+I'm+Ravi+👋;Aspiring+Full+Stack+Developer;Passionate+Web+Developer+%26+DSA+Learner" alt="Typing SVG Header" />
+  <a href="https://github.com/ravi158200">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&height=50&lines=Hey+there!+I+am+Ravi;Aspiring+Full+Stack+Developer;Web+Developer+and+DSA+Learner" alt="Typing SVG Header" />
   </a>
 </div>
 
